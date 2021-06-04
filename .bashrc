@@ -11,6 +11,7 @@ PS1='[\u@\h \W]\$ '
 # alias
 alias cdc='pwd | xclip -selection c'
 alias cdp='cd `xclip -selection c -o`'
+alias school='cd $HOME/projects/school/c_practice/'
 
 ## cd
 alias ..='cd ..'

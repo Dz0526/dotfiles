@@ -13,6 +13,9 @@ alias cdc='pwd | xclip -selection c'
 alias cdp='cd `xclip -selection c -o`'
 alias school='cd $HOME/projects/school/c_practice/'
 
+alias ygk='cd ~/projects/youngeek/'
+alias dev='cd ~/projects/develop/'
+
 ## cd
 alias ..='cd ..'
 alias ...='cd ../../'

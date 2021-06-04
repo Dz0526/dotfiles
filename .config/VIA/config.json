@@ -1,0 +1,26 @@
+{
+	"remoteData": {
+		"generatedAt": -1,
+		"definitions": {},
+		"theme": {
+			"alpha": {
+				"c": "#363434",
+				"t": "#E8C4B8"
+			},
+			"mod": {
+				"c": "#363434",
+				"t": "#E8C4B8"
+			},
+			"accent": {
+				"c": "#E8C4B8",
+				"t": "#363434"
+			}
+		}
+	},
+	"settings": {
+		"allowKeyboardKeyRemapping": false,
+		"showDesignTab": false,
+		"disableFastRemap": false,
+		"disableHardwareAcceleration": false
+	}
+}

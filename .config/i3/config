@@ -20,6 +20,9 @@ bindsym $mod+Shift+z	gaps outer current minus 5
 
 set $mod Mod4
 
+# color
+client.focused #4C566A #4C566A #ffffff #2e9ef4 #4C566A
+
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 font pango:FuraCode Nerd Font, IPAGothic 8
@@ -195,7 +198,7 @@ bar {
 
 # feh
 #exec --no-startup-id "feh --bg-scale $HOME/picture/wallpaper/tux_white.jpg"
-exec --no-startup-id "feh --bg-scale $HOME/picture/wallpaper/wallpaper_some_tux.jpg"
+exec --no-startup-id "feh --bg-scale $HOME/picture/wallpaper/nord_sea.png"
 
 # fcitx
 exec --no-startup-id "fcitx"

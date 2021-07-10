@@ -16,5 +16,6 @@
 	lg = log
 	ch = checkout
 	cb = checkout -b
+	cl = clone
 [init]
 	defaultBranch = main

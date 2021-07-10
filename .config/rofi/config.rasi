@@ -1,0 +1,6 @@
+configuration {
+	theme: "nord";
+	width: 33;
+	location: 2;
+	font: "Roboto Condensed 10";
+}

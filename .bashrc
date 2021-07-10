@@ -14,7 +14,7 @@ alias cdc='pwd | xclip -selection c'
 alias cdp='cd `xclip -selection c -o`'
 alias school='cd $HOME/projects/school/c_practice/'
 
-alias ygk='cd ~/projects/youngeek/'
+alias ygk='cd ~/projects/develop/youngeek/'
 alias dev='cd ~/projects/develop/'
 
 ## cd
@@ -35,6 +35,9 @@ alias yr='yay -R'
 
 ## pacman
 alias pm='pacman'
+
+## source
+alias so='source'
 
 # GOPATH
 export GOPATH=$HOME/.go

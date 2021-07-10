@@ -28,6 +28,7 @@ Plug 'kassio/neoterm'
 Plug 'alvan/vim-closetag'
 Plug 'Shougo/vimproc.vim', {'do': 'make'}
 Plug 'Quramy/tsuquyomi'
+Plug 'ctrlpvim/ctrlp.vim'
 " use mdr (md parser)
 call plug#end()
 

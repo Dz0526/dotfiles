@@ -39,6 +39,9 @@ alias pm='pacman'
 ## source
 alias so='source'
 
+# QTGTK
+export QT_QPA_PLATFORMTHEME='gtk2'
+
 # GOPATH
 export GOPATH=$HOME/.go
 

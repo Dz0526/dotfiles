@@ -19,3 +19,5 @@
 	cl = clone
 [init]
 	defaultBranch = main
+[ghq]
+	root = /home/ito/projects/

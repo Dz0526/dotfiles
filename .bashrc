@@ -71,3 +71,29 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 # startup command
+
+# peco & ghq
+function peco-select-history() {
+    local tac
+    which gtac &> /dev/null && tac="gtac" || \
+        which tac &> /dev/null && tac="tac" || \
+        tac="tail -r"
+    READLINE_LINE=$(HISTTIMEFORMAT= history | $tac | sed -e 's/^\s*[0-9]\+\s\+//' | awk '!a[$0]++' | peco --query "$READLINE_LINE")
+    READLINE_POINT=${#READLINE_LINE}
+}
+bind -x '"\C-r": peco-select-history'
+
+function ghql() {
+  local selected_file=$(ghq list --full-path | peco --query "$LBUFFER")
+  if [ -n "$selected_file" ]; then
+    if [ -t 1 ]; then
+      echo ${selected_file}
+      cd ${selected_file}
+    fi
+  fi
+}
+bind -x '"\C-g": ghql'
+
+# history
+HISTSIZE=5000
+HISTFILESIZE=10000

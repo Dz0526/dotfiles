@@ -1,6 +1,7 @@
 [user]
-	email = shining.sun0526@gmail.com
+	email = this@dz99.me
 	name = Dz0526
+	signingkey = 6C206FD53E32710BA35307A60FB4B4E73A20A215
 [core]
 	editor = vim
 [alias]

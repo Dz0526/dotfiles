@@ -18,6 +18,9 @@
 	ch = checkout
 	cb = checkout -b
 	cl = clone
+	rb = rebase
+	ro = rebase --onto
+	ri = rebase -i
 [init]
 	defaultBranch = main
 [ghq]

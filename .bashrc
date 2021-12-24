@@ -16,6 +16,7 @@ alias school='cd $HOME/projects/school/c_practice/'
 
 alias ygk='cd ~/projects/develop/youngeek/'
 alias dev='cd ~/projects/develop/'
+alias nf='cd ~/projects/develop/nanofreaks/'
 
 ## cd
 alias ..='cd ..'
@@ -45,6 +46,9 @@ export QT_QPA_PLATFORMTHEME='gtk2'
 # GOPATH
 export GOPATH=$HOME/.go
 
+# GOUTIL
+export CGO_ENABLED=0
+
 # TOOLPATH
 export TOOLPATH=$HOME/tools
 
@@ -54,8 +58,11 @@ export PYTHONPATH=$HOME/.local/bin
 # HOBBYPATH
 export HOBBYPATH=$HOME/hobby/pomocat
 
+# FLUTTERPATH
+export FLUTTERPATH=$HOME/flutter/bin
+
 # PATH
-export PATH=$PATH:$GOPATH:$TOOLPATH:$PYTHONPATH:$HOBBYPATH
+export PATH=$PATH:$GOPATH:$TOOLPATH:$PYTHONPATH:$HOBBYPATH:$FLUTTERPATH
 
 # Git alias
 alias g='git'

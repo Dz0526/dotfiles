@@ -64,8 +64,9 @@ export FLUTTERPATH=$HOME/flutter/bin
 # PATH
 export PATH=$PATH:$GOPATH:$TOOLPATH:$PYTHONPATH:$HOBBYPATH:$FLUTTERPATH
 
-# Git alias
+# Git
 alias g='git'
+source ~/.git-completion
 
 # set vi mode
 set -o vi
